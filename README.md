@@ -1,4 +1,4 @@
-# foodfanatic
+# Tastii
 
 A new Flutter project.
 

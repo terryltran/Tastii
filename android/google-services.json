@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "333993244365",
+    "project_id": "tastii-5e804",
+    "storage_bucket": "tastii-5e804.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:333993244365:android:af68bfd5a4e027c41f9b84",
+        "android_client_info": {
+          "package_name": "com.example.Tastii"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "333993244365-7jlprv1r8vd3vhggg3od3nfco4r2f32i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNQWcCCHtQkzcyTO9pmK8PmCTpt_Cv_S8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "333993244365-7jlprv1r8vd3vhggg3od3nfco4r2f32i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
