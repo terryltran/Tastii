@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: SignUp(),
     );
   }
 }
@@ -196,6 +196,49 @@ class _MyHomePageState extends State<MyHomePage> {
   ),
   );
   }
+  }
+
+  class SignUp extends StatefulWidget {
+    SignUp({Key key}) : super(key: key);
+
+    @override
+    _SignUpState createState() => _SignUpState();
+  }
+
+  class _SignUpState extends State<SignUp> {
+    
+    String email = '';
+    String password = '';
+    @override
+    Widget build(BuildContext context) {
+      return Scaffold(
+        appBar:AppBar(
+          backgroundColor: Colors.blue,
+          elevation: 8,
+          title: Text("Sign Up")
+        )
+        body: Container(
+          padding: EdgeInsets.symmetric(vertical: 20, horizontal: 50),
+          child:new Form(
+            child: Column(
+              children: [
+                TextFormField(
+                  onChanged: (val) => setState((){
+                    email = val;
+                  }),
+                ),
+                TextFormField(
+                  onChanged: (val) => setState((){
+                    email = val;
+                  }),
+                ),
+                RaisedButton(child: Text('SignUp'), onPressed: null)
+              ],
+            )
+          )),
+        ));
+      )
+    }
   }
 
   RaisedButton(
